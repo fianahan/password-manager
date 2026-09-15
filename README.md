@@ -28,6 +28,7 @@ password-manager/
 ├── passwords.json
 ├── README.md
 
+```
 ## How It Works
 The program stores passwords in a dictionary format and saves them to a JSON file. Each entry contains:
 - site name
@@ -35,29 +36,29 @@ The program stores passwords in a dictionary format and saves them to a JSON fil
 - password
 When the user wants to retrieve a password, the program reads the saved data and displays the credentials for the selected site.
 
-## Run the Project
+```## Run the Project
 python password_manager.py
-
-## Example Menu
+```
+```## Example Menu
 **Password Manager**
 1. Save Password
 2. Get Password
 3. Exit
-
-## Example Flow
+```
+```## Example Flow
 Enter your choice: 1
 Enter site name: Gmail
 Enter username: exampleuser
 Enter password: mypassword123
 Password saved successfully!
-
-Then:
+```
+```Then:
 Enter your choice: 2
 Enter site name: Gmail
 Site: Gmail
 Username: exampleuser
 Password: mypassword123
-
+```
 ## What I Learned
 - Writing reusable functions in Python
 - Using dictionaries to store structured data
