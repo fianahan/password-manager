@@ -69,7 +69,7 @@ Password: mypassword123
 ## Project Purpose
 This project demonstrates foundational software development skills, including logic building, data management, and practical Python programming. It is a simple but effective example of a real-world utility application.
 
-Author
+## Author
 Fiana Han
 
 
