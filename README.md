@@ -1,40 +1,74 @@
-# password-manager
-## A simple, beginner‑friendly Python password manager that stores login credentials locally in a JSON file. This project demonstrates core Python fundamentals, file handling, and simple data persistence.
+# Password Manager
+
+A simple Python-based password manager that allows users to securely store, retrieve, and manage login credentials for different websites.
+
+## Overview
+
+This project was created to practice core Python programming concepts, including file handling, JSON storage, functions, and menu-driven user interaction. It helps users save credentials for multiple sites and quickly retrieve them when needed.
 
 ## Features
-- Save passwords for any website or service
-- Retrieve stored login credentials
-- JSON-based storage (easy to read and modify)
-- Lightweight and beginner-friendly
+
+- Save a website name, username, and password
+- Retrieve saved credentials for a specific site
+- Store data in a JSON file
+- Simple command-line interface
+- Beginner-friendly and easy to extend
+
+## Tech Stack
+
+- Python 3
+- JSON
+- OS module
 
 ## Project Structure
+
+```text
 password-manager/
-│
-├── main.py          # Core logic for saving and retrieving passwords
-├── passwords.json   # Local storage file
-└── README.md        # Project documentation
+├── password_manager.py
+├── passwords.json
+├── README.md
 
 ## How It Works
-The program checks whether `passwords.json` exists. If not, it creates an empty JSON file.
-When saving a password, it updates the JSON with a new entry containing the username and password.
-When retrieving, it loads the JSON and prints the stored credentials.
+The program stores passwords in a dictionary format and saves them to a JSON file. Each entry contains:
+- site name
+- username
+- password
+When the user wants to retrieve a password, the program reads the saved data and displays the credentials for the selected site.
 
-## Usage
-1. Clone the repository:
-   git clone https://github.com/fianahan/password-manager.git
+## Run the Project
+python password_manager.py
 
-2. Run the script:
-   python main.py
+## Example Menu
+**Password Manager**
+1. Save Password
+2. Get Password
+3. Exit
 
-3. Follow the prompts to save or retrieve passwords.
+## Example Flow
+Enter your choice: 1
+Enter site name: Gmail
+Enter username: exampleuser
+Enter password: mypassword123
+Password saved successfully!
 
-## Future Improvements
-- Add encryption for stored passwords
-- Add a GUI (Tkinter or PyQt)
-- Add password generation
-- Add delete or search functionality
+Then:
+Enter your choice: 2
+Enter site name: Gmail
+Site: Gmail
+Username: exampleuser
+Password: mypassword123
 
-## Author
-Created by Fiana Han
+## What I Learned
+- Writing reusable functions in Python
+- Using dictionaries to store structured data
+- Working with JSON files for data persistence
+- Handling user input through a command-line menu
+- Implementing basic CRUD-style functionality in a small project
+
+## Project Purpose
+This project demonstrates foundational software development skills, including logic building, data management, and practical Python programming. It is a simple but effective example of a real-world utility application.
+
+Author
+Fiana Han
 
 
