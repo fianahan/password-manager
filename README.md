@@ -1,5 +1,6 @@
 # password-manager
-## A simple, beginner‑friendly Python password manager that stores login credentials locally in a JSON file. Perfect as a first portfolio project to demonstrate Python fundamentals, file handling, and basic data persistence.
+## A simple, beginner‑friendly Python password manager that stores login credentials locally in a JSON file. This project demonstrates core Python fundamentals, file handling, and simple data persistence.
+
 ## Features
 - Save passwords for any website or service
 - Retrieve stored login credentials
